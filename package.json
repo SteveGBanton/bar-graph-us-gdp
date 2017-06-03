@@ -1,0 +1,26 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A webpack boilerplate with Babel, SASS, and style loaders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "SteveGBanton",
+  "license": "MIT",
+  "devDependencies": {
+  "babel-cli": "^6.24.1",
+  "babel-core": "^6.24.1",
+  "babel-loader": "^7.0.0",
+  "babel-preset-env": "^1.4.0",
+  "babel-preset-react": "^6.24.1",
+  "babel-preset-stage-0": "^6.24.1",
+  "css-loader": "^0.28.1",
+  "json-loader": "^0.5.4",
+  "node-sass": "^4.5.2",
+  "sass-loader": "^6.0.5",
+  "style-loader": "^0.18.1",
+  "webpack": "^2.5.1",
+  "webpack-dev-server": "^2.4.5"
+  }
+}
